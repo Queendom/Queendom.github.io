@@ -1,10 +1,12 @@
-
 .App {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
 }
 
+h1 {
+  text-align: center;
+}
 
 
 .item {
@@ -13,9 +15,10 @@
 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.AboutIntroLine {
+  color: white;
+  text-shadow: black 1px 1px 1px;
+  font-size: 150%;
 }
 
 @media (prefers-reduced-motion: no-preference) {

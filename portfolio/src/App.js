@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import { BrowserRouter, Route, Link, Routes} from 'react-router-dom';
 import Home from './Home.js';  
 import About from './About.js';  

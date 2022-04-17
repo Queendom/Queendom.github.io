@@ -9,9 +9,9 @@ function Portfolio(props) {
   return (
     <div>
       <h1>Portfolio</h1>
-      <Thumbnail
+      <Thumbnail 
         link="https://wcet3.waketech.edu/dpablo/WEB250mos/wordpress/"
-        image={TheCryptogropher}
+        image={TheCryptogropher} 
         title="The Cryptogropher"
         category=""
       />
