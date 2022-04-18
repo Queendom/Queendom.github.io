@@ -27,7 +27,7 @@ import"./fonts/Nosifer-Regular.ttf";
  
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <div className="App" style={{ backgroundImage: `url(${background})` }}>
 
       <div className="navigation">
