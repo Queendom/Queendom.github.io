@@ -6,6 +6,7 @@ function Navigation() {
         <>
             <Navbar collapseOnSelect sticky='top' expand='sm' bg='white' variant='light'>
                 <Container>
+                <Navbar.Brand id="navhead" href="/">Dinah Pablo</Navbar.Brand>
                     <Navbar.Toggle aria-controls='responsive=nabar-nav' />
                     <Navbar.Collapse id='responsive-navbar-nav'>
                     <Nav>

@@ -8,6 +8,10 @@ h1 {
   text-align: center;
 }
 
+#navhead {
+  font-family: Nosifer, cursive;
+}
+
 #carousel {
   width: 60%;
   height: auto;
@@ -43,27 +47,27 @@ h1 {
 }
 
 @font-face {
-  font-family: 'Cinzel Decorative', cursive;
+  font-family: 'Cinzel Decorative';
   src: local("CinzelDecorative-Black"),
     url("./fonts/CinzelDecorative-Black.ttf") format("truetype");
 }
 @font-face {
-  font-family: 'Cinzel Decorative', cursive;
+  font-family: 'Cinzel Decorative';
   src: local("CinzelDecorative-Bold"),
     url("./fonts/CinzelDecorative-Bold.ttf") format("truetype");
 }
 @font-face {
-  font-family: 'Cinzel Decorative', cursive;
+  font-family: 'Cinzel Decorative';
   src: local("CinzelDecorative-Regular"),
     url("./fonts/CinzelDecorative-Regular.ttf") format("truetype");
 }
 @font-face {
-  font-family: 'Milonga', cursive;
+  font-family: 'Milonga';
   src: local("Milonga-Regular"),
     url("./fonts/Milonga-Regular.ttf") format("truetype");
 }
 @font-face {
-  font-family: 'Nosifer', cursive;
+  font-family: 'Nosifer';
   src: local("Nosifer-Regular"),
     url("./fonts/Nosifer-Regular.ttf") format("truetype");
 }
