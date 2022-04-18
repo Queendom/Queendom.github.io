@@ -6,7 +6,7 @@ import Portfolio from './Portfolio.js';
 import Resume from './Resume.js'; 
 import Contact from './Contact.js'; 
 import DigitalArtwork from './DigitalArtwork.js'; 
-import background from './images/TornPaper.png';
+import background from './images/HalvedStitch.jpg';
 import Navigation from './Nav.js';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -38,7 +38,7 @@ function App() {
           </div>
         </div>
         
-  
+
         <Routes>
         <Route exact path="/" element={<About/>} />
         <Route path="/portfolio" element={<Portfolio/>} />

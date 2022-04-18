@@ -1,15 +1,23 @@
 .App {
-  background-repeat: no-repeat;
+  background-repeat: repeat-x;
   background-attachment: fixed;
   background-size: cover;
 }
 
 h1, h2 {
   text-align: center;
+  font-family: Cinzel Decorative, cursive;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  text-shadow: rgb(255, 255, 255) 3px 2px 1px;
 }
+
 
 #navhead {
   font-family: Nosifer, cursive;
+  font-size: 250%;
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 
 #carousel {
@@ -26,9 +34,12 @@ h1, h2 {
 
 #standard_text {
   padding-left: 20px;
+  font-family: Cinzel Decorative, cursive;
+  font-size: 200%;
   word-wrap: normal;
   height: auto;
   position: relative;
+  text-shadow: rgb(255, 255, 255) 3px 2px 1px;
 }
 
 .item {
@@ -38,9 +49,10 @@ h1, h2 {
 }
 
 .AboutIntroLine {
-  color: white;
-  text-shadow: black 1px 1px 1px;
-  font-size: 150%;
+  color: rgb(0, 0, 0);
+  text-shadow: rgb(255, 255, 255) 3px 2px 1px;
+  font-family: Cinzel Decorative, cursive;
+  font-size: 300%;
 }
 .container {
   display: flex;
