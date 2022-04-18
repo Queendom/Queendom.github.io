@@ -1,17 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.d970b09a.css",
-    "main.js": "/static/js/main.57003f8e.js",
+    "main.css": "/static/css/main.9d2357ff.css",
+    "main.js": "/static/js/main.c244e5d5.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
-    "static/media/TornPaper.png": "/static/media/TornPaper.b64d3b17ef7d1941dfa1.png",
     "static/media/FlowerVenti.jpg": "/static/media/FlowerVenti.641eb60a29bc77a2e665.jpg",
     "static/media/GothGiorno.png": "/static/media/GothGiorno.f7b5c79bd207e43b87da.png",
     "static/media/Jolyne.jpg": "/static/media/Jolyne.da4395ef02f19c0e7881.jpg",
-    "static/media/TheCryptogropher.PNG": "/static/media/TheCryptogropher.36db9d4839f1ad924ad7.PNG",
+    "static/media/WestPalmBeach1280.jpg": "/static/media/WestPalmBeach1280.7cf79eff99acb45a9f38.jpg",
+    "static/media/JJBAWikiSpot1280.jpg": "/static/media/JJBAWikiSpot1280.a4bb7362bcac895cdfee.jpg",
     "static/media/VintageTypewriter.jpeg": "/static/media/VintageTypewriter.209334e50b7a9439207b.jpeg",
+    "static/media/TheCryptogropher1280.jpg": "/static/media/TheCryptogropher1280.2ea8bfba307b67ceefa4.jpg",
     "static/media/Milonga-Regular.ttf": "/static/media/Milonga-Regular.560281c48d54a2252656.ttf",
-    "static/media/WestPalmBeachLarge.jpg": "/static/media/WestPalmBeachLarge.75899be9402ee30b7189.jpg",
-    "static/media/JJBAWikiSpotLarge.jpg": "/static/media/JJBAWikiSpotLarge.96e4b608d0e6ce2b0224.jpg",
     "static/media/Resume.PNG": "/static/media/Resume.49b466516f44b390ec2f.PNG",
     "static/media/ClassSelfie.jpg": "/static/media/ClassSelfie.3fb2d329956c213ca07d.jpg",
     "static/media/CinzelDecorative-Black.ttf": "/static/media/CinzelDecorative-Black.a98758b9452a977dba37.ttf",
@@ -19,12 +18,12 @@
     "static/media/CinzelDecorative-Regular.ttf": "/static/media/CinzelDecorative-Regular.c243877d82654b511c69.ttf",
     "static/media/Nosifer-Regular.ttf": "/static/media/Nosifer-Regular.09ac1852b7b1ef7a0cc2.ttf",
     "index.html": "/index.html",
-    "main.d970b09a.css.map": "/static/css/main.d970b09a.css.map",
-    "main.57003f8e.js.map": "/static/js/main.57003f8e.js.map",
+    "main.9d2357ff.css.map": "/static/css/main.9d2357ff.css.map",
+    "main.c244e5d5.js.map": "/static/js/main.c244e5d5.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d970b09a.css",
-    "static/js/main.57003f8e.js"
+    "static/css/main.9d2357ff.css",
+    "static/js/main.c244e5d5.js"
   ]
 }
