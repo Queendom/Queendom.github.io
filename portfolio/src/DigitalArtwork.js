@@ -3,29 +3,18 @@ import Thumbnail from './Thumbnail.js'; // Import the Thumbnail component
 import FlowerVenti from './images/FlowerVenti.jpg';
 import GothGiorno from './images/GothGiorno.png';
 import Jolyne from './images/Jolyne.jpg';
- 
+import Image from 'react-bootstrap/Image';
+
 function DigitalArtwork(props) {
   return (
     <div>
       <h1>Digital Artwork</h1>
-      <Thumbnail
-        link=""
-        image={FlowerVenti}
-        title="Venti"
-        category=""
-      />
-        <Thumbnail
-        link=""
-        image={GothGiorno}
-        title="Giorno"
-        category=""
-      />
-        <Thumbnail
-        link=""
-        image={Jolyne}
-        title="Jolyne"
-        category=""
-      />
+      <h2>Venti</h2>
+      <Image id="reactImage" src={FlowerVenti} fluid='true'/>
+      <h2>Giorno</h2>
+      <Image id="reactImage" src={GothGiorno} fluid='true'/>
+      <h2>Jolyne</h2>
+      <Image id="reactImage" src={Jolyne} fluid='true'/>
     </div>
   )
 }
