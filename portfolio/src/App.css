@@ -17,6 +17,13 @@ h1 {
   height: auto;
 }
 
+#standard_text {
+  padding-left: 20px;
+  word-wrap: normal;
+  height: auto;
+  position: relative;
+}
+
 .item {
   text-decoration: none;
   color: black;
@@ -27,6 +34,12 @@ h1 {
   color: white;
   text-shadow: black 1px 1px 1px;
   font-size: 150%;
+}
+
+#reactImage {
+  width: 30%;
+  height: auto;
+  flex: 1;
 }
 
 @media (prefers-reduced-motion: no-preference) {

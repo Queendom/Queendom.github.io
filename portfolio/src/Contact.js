@@ -1,19 +1,27 @@
 import React from "react"
 import VintageTypewriter from './images/VintageTypewriter.jpeg';
+import { SocialIcon } from 'react-social-icons';
+import Image from 'react-bootstrap/Image'
  
 function Contact(props) {
   return (
     <div>
       <h1>Contact Me</h1>
-      <img src={VintageTypewriter} fluid></img>
 
-      <p>For business inquires, please contact me at:</p>
+      <Image id="reactImage" src={VintageTypewriter} fluid='true' />
+      <div id="standard_text">
+        <p>For business inquires, please contact me at:</p>
 
-      <p>dinapablo19@gmail.com</p>
+        <p>dinapablo19@gmail.com</p>
 
-     <p>(919) 579-8069</p>
+        <p>(919) 579-8069</p>
 
-      <h2>Socials</h2>
+        <h2>Socials</h2>
+        <SocialIcon url="https://twitter.com/" />
+        <SocialIcon url="https://facebook.com/" />
+        <SocialIcon url="https://linkedin.com/" />
+        <SocialIcon url="https://instagram.com/" />
+      </div>
     </div>
   )
 }
