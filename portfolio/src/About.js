@@ -6,7 +6,7 @@ import Image from 'react-bootstrap/Image'
 function About() {
   return (
     <div>
-      <h1>About</h1>
+      <h1>Home</h1>
       
       <Image id="reactImage" src={ClassSelfie} fluid='true'/>
       <div id="standard_text">
