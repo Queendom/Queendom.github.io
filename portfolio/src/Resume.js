@@ -6,12 +6,7 @@ function Resume(props) {
   return (
     <div>
       <h1>Resume</h1>
-      <Thumbnail
-        link=""
-        image={ResumeScreenshot}
-        title=""
-        category=""
-      />
+      <img src={ResumeScreenshot} id="resume"/>
     </div>
   )
 }
