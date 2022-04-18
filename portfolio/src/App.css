@@ -8,6 +8,10 @@ h1 {
   text-align: center;
 }
 
+#carousel {
+  width: 60%;
+  height: auto;
+}
 
 .item {
   text-decoration: none;

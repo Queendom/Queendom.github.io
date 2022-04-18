@@ -11,11 +11,11 @@ function Portfolio(props) {
   return (
     <div>
       <h1>Portfolio</h1>
-      <Carousel>
+      <Carousel autoPlay='true' infiniteLoop='true' interval='3000' >
         <div>
           <a href="https://wcet3.waketech.edu/dpablo/WEB250mos/wordpress/" target="_blank">
             <div>
-              <img src={TheCryptogropher} />
+              <img src={TheCryptogropher} id="carousel"/>
             </div>
           </a>
             <p className="legend">A cryptocurrency website that was created for a class mid-term.</p>
@@ -23,7 +23,7 @@ function Portfolio(props) {
         <div>
           <a href="https://wcet3.waketech.edu/dpablo/Web125/GrandFinale/index.html" target="_blank">
             <div>
-              <img src={JJBAWikiSpot} />
+              <img src={JJBAWikiSpot} id="carousel"/>
             </div>
           </a>
             <p className="legend">This was a Jojo's Bizarre Adventure fanmade website that I created for a class final. 
@@ -32,7 +32,7 @@ function Portfolio(props) {
         <div>
           <a href="https://wcet3.waketech.edu/dpablo/WEB250eos/wordpress/news/" target="_blank">
             <div>
-              <img src={WestPalmBeach} />
+              <img src={WestPalmBeach} id="carousel"/>
             </div>
           </a>
             <p className="legend">As a class final, I created a tourist website for West Palm Beach, Florida.</p>
