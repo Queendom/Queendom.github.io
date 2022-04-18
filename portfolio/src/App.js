@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route, Link, Routes} from 'react-router-dom';
+import { BrowserRouter, Route, Link, Routes, HashRouter} from 'react-router-dom';
 import Home from './Home.js';  
 import About from './About.js';  
 import Portfolio from './Portfolio.js'; 
@@ -27,7 +27,7 @@ import"./fonts/Nosifer-Regular.ttf";
  
 function App() {
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <HashRouter basename={process.env.PUBLIC_URL}>
       <div className="App" style={{ backgroundImage: `url(${background})` }}>
 
       <div className="navigation">
@@ -50,7 +50,7 @@ function App() {
   
   
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
  
