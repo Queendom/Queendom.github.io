@@ -1,9 +1,11 @@
 import React from "react"
 import Thumbnail from './Thumbnail.js'; // Import the Thumbnail component
 import './App.css';
-import TheCryptogropher from './images/TheCryptogropher.PNG';
-import JJBAWikiSpot from './images/JJBAWikiSpot.PNG';
-import WestPalmBeach from './images/WestPalmBeach.PNG';
+import TheCryptogropherLarge  from './images/TheCryptogropherLarge.jpg';
+import TheCryptogropherMedium from './images/TheCryptogropherMedium.jpg';
+import TheCryptogropherSmall from './images/TheCryptogropherSmall.jpg';
+import JJBAWikiSpot from './images/JJBAWikiSpotLarge.jpg';
+import WestPalmBeach from './images/WestPalmBeachLarge.jpg';
  
 function Portfolio(props) {
   return (
@@ -11,7 +13,9 @@ function Portfolio(props) {
       <h1>Portfolio</h1>
       <Thumbnail 
         link="https://wcet3.waketech.edu/dpablo/WEB250mos/wordpress/"
-        image={TheCryptogropher} 
+        image_small={TheCryptogropherSmall}
+        image_medium={TheCryptogropherMedium}
+        image_large={TheCryptogropherLarge}
         title="The Cryptogropher"
         category=""
       />

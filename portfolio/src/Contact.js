@@ -5,7 +5,7 @@ function Contact(props) {
   return (
     <div>
       <h1>Contact Me</h1>
-      <img src={VintageTypewriter}></img>
+      <img src={VintageTypewriter} fluid></img>
 
       <p>For business inquires, please contact me at:</p>
 
