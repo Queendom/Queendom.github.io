@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.d970b09a.css",
-    "main.js": "/static/js/main.1411fbad.js",
+    "main.js": "/static/js/main.57003f8e.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/TornPaper.png": "/static/media/TornPaper.b64d3b17ef7d1941dfa1.png",
     "static/media/FlowerVenti.jpg": "/static/media/FlowerVenti.641eb60a29bc77a2e665.jpg",
@@ -20,11 +20,11 @@
     "static/media/Nosifer-Regular.ttf": "/static/media/Nosifer-Regular.09ac1852b7b1ef7a0cc2.ttf",
     "index.html": "/index.html",
     "main.d970b09a.css.map": "/static/css/main.d970b09a.css.map",
-    "main.1411fbad.js.map": "/static/js/main.1411fbad.js.map",
+    "main.57003f8e.js.map": "/static/js/main.57003f8e.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d970b09a.css",
-    "static/js/main.1411fbad.js"
+    "static/js/main.57003f8e.js"
   ]
 }
