@@ -42,8 +42,34 @@ h1 {
   color: white;
 }
 
+@font-face {
+  font-family: 'Cinzel Decorative', cursive;
+  src: local("CinzelDecorative-Black"),
+    url("./fonts/CinzelDecorative-Black.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'Cinzel Decorative', cursive;
+  src: local("CinzelDecorative-Bold"),
+    url("./fonts/CinzelDecorative-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'Cinzel Decorative', cursive;
+  src: local("CinzelDecorative-Regular"),
+    url("./fonts/CinzelDecorative-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'Milonga', cursive;
+  src: local("Milonga-Regular"),
+    url("./fonts/Milonga-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'Nosifer', cursive;
+  src: local("Nosifer-Regular"),
+    url("./fonts/Nosifer-Regular.ttf") format("truetype");
+}
+
 .App-link {
-  color: #61dafb;
+  color: black;
 }
 
 @keyframes App-logo-spin {

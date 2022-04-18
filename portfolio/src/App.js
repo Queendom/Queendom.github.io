@@ -10,6 +10,11 @@ import background from './images/TornPaper.png';
 import Navigation from './Nav.js';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import "./fonts/CinzelDecorative-Black.ttf";
+import"./fonts/CinzelDecorative-Bold.ttf";
+import"./fonts/CinzelDecorative-Regular.ttf";
+import"./fonts/Milonga-Regular.ttf";
+import"./fonts/Nosifer-Regular.ttf";
 
 
 <link
