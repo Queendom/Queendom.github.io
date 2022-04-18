@@ -10,11 +10,11 @@ function DigitalArtwork(props) {
     <div>
       <h1>Digital Artwork</h1>
       <h2>Venti</h2>
-      <Image id="reactImage" src={FlowerVenti} fluid='true'/>
+      <Image id="artwork" src={FlowerVenti} fluid='true'/>
       <h2>Giorno</h2>
-      <Image id="reactImage" src={GothGiorno} fluid='true'/>
+      <Image id="artwork" src={GothGiorno} fluid='true'/>
       <h2>Jolyne</h2>
-      <Image id="reactImage" src={Jolyne} fluid='true'/>
+      <Image id="artwork" src={Jolyne} fluid='true'/>
     </div>
   )
 }

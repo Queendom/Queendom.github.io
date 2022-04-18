@@ -7,13 +7,14 @@ function About() {
   return (
     <div>
       <h1>Home</h1>
-      
-      <Image id="reactImage" src={ClassSelfie} fluid='true'/>
-      <div id="standard_text">
-        <p class="AboutIntroLine">Hello! I'm Dinah - 
-          a designer who enjoys creating websites that are both beautiful and functional to suit every need.</p>
+      <div className="container">
+        <Image id="reactImage" src={ClassSelfie} fluid='true'/>
+        <div id="standard_text">
+          <p class="AboutIntroLine">Hello! I'm Dinah - 
+            a designer who enjoys creating websites that are both beautiful and functional to suit every need.</p>
 
-        <a href="https://dinapablo826047209.wordpress.com">Check out my blog here!</a>
+          <a href="https://dinapablo826047209.wordpress.com">Check out my blog here!</a>
+        </div>
       </div>
     </div>
   );

@@ -1,12 +1,14 @@
 import React from "react"
 import Thumbnail from './Thumbnail.js'; // Import the Thumbnail component
 import ResumeScreenshot from './images/Resume.PNG';
+import Image from 'react-bootstrap/Image';
+
  
 function Resume(props) {
   return (
     <div>
       <h1>Resume</h1>
-      <img src={ResumeScreenshot} id="resume"/>
+      <Image id="resume" src={ResumeScreenshot} fluid='true'/>
     </div>
   )
 }
