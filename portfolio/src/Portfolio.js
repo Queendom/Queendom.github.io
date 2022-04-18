@@ -3,9 +3,9 @@ import Thumbnail from './Thumbnail.js'; // Import the Thumbnail component
 import './App.css';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
-import JJBAWikiSpot from './images/JJBAWikiSpotLarge.jpg';
-import WestPalmBeach from './images/WestPalmBeachLarge.jpg';
-import TheCryptogropher from './images/TheCryptogropher.PNG';
+import JJBAWikiSpot from './images/JJBAWikiSpot1280.jpg';
+import WestPalmBeach from './images/WestPalmBeach1280.jpg';
+import TheCryptogropher from './images/TheCryptogropher1280.jpg';
  
 function Portfolio(props) {
   return (

@@ -2,28 +2,33 @@
   background-repeat: repeat;
   background-attachment: fixed;
   background-size: cover;
+  background-position: top center;
 }
 
 h1, h2 {
   text-align: center;
   font-family: Cinzel Decorative, cursive;
-  padding-top: 5%;
-  padding-bottom: 5%;
+  padding-top: 4%;
+  padding-bottom: 4%;
   text-shadow: rgb(255, 255, 255) 3px 2px 1px;
 }
 
 
 #navhead {
   font-family: Nosifer, cursive;
-  font-size: 250%;
-  padding-top: 2%;
-  padding-bottom: 2%;
+  font-size: 270%;
+  padding-top: 3%;
+  padding-bottom: 3%;
 }
 
 
 #carousel {
   width: 60%;
   height: auto;
+}
+
+.legend {
+  font-family: Milonga, cursive;
 }
 
 #resume {
@@ -36,25 +41,21 @@ h1, h2 {
 #standard_text {
   padding-left: 20px;
   font-family: Cinzel Decorative, cursive;
-  font-size: 200%;
+  font-size: 280%;
   word-wrap: normal;
   height: auto;
   position: relative;
+  color: black;
   text-shadow: rgb(255, 255, 255) 3px 2px 1px;
 }
 
 .item {
   text-decoration: none;
   color: black;
-
+  font-family: Milonga, cursive;
+  font-size: 140%;
 }
 
-.AboutIntroLine {
-  color: rgb(0, 0, 0);
-  text-shadow: rgb(255, 255, 255) 3px 2px 1px;
-  font-family: Cinzel Decorative, cursive;
-  font-size: 150%;
-}
 .container {
   display: flex;
   flex-direction: row; 
@@ -136,10 +137,3 @@ h1, h2 {
   }
 }
 
-
-
-.CryptoTagline {
-  color: white;
-  text-shadow: black 1px 1px 1px;
-  font-size: 150%;
-}
