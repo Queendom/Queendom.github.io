@@ -5,8 +5,7 @@ import About from './About.js';
 import Portfolio from './Portfolio.js'; 
 import Resume from './Resume.js'; 
 import Contact from './Contact.js'; 
-import DigitalArtwork from './DigitalArtwork.js'; 
-import background from './images/HalvedStitch.jpg';
+import background from './images/AbstractPaint.jpg';
 import Navigation from './Nav.js';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -44,7 +43,6 @@ function App() {
         <Route path="/portfolio" element={<Portfolio/>} />
         <Route path="/resume" element={<Resume/>} />
         <Route path="/contact" element={<Contact/>} />
-        <Route path="/digitalartwork" element={<DigitalArtwork/>} />
       
         </Routes>
   
