@@ -7,6 +7,7 @@ import Resume from './Resume.js';
 import Contact from './Contact.js'; 
 import background from './images/AbstractPaint.jpg';
 import Navigation from './Nav.js';
+import DigitalArtwork from './DigitalArtwork.js'; 
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./fonts/CinzelDecorative-Black.ttf";
@@ -43,6 +44,7 @@ function App() {
         <Route path="/portfolio" element={<Portfolio/>} />
         <Route path="/resume" element={<Resume/>} />
         <Route path="/contact" element={<Contact/>} />
+        <Route path="/digitalartwork" element={<DigitalArtwork/>} />
       
         </Routes>
   
