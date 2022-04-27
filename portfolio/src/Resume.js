@@ -7,7 +7,7 @@ import Image from 'react-bootstrap/Image';
 function Resume(props) {
   return (
     <div>
-      <h1>Resume</h1>
+      <h1 class="HeaderOne">Resume</h1>
       <Image id="resume" src={ResumeScreenshot} fluid='true'/>
     </div>
   )

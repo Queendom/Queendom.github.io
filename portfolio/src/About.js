@@ -1,12 +1,12 @@
 import React from "react"
-import ClassSelfie from './images/ClassSelfie.jpg';
+import ClassSelfie from './images/ClassSelfieCircle.png';
 import Image from 'react-bootstrap/Image'
 
  
 function About() {
   return (
     <div>
-      <h1>Home</h1>
+      <h1 class="HeaderOne">About</h1>
       <div className="container">
         <Image id="reactImage" src={ClassSelfie} fluid='true'/>
         <div id="standard_text">

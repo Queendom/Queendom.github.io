@@ -6,7 +6,7 @@ import Image from 'react-bootstrap/Image'
 function Contact(props) {
   return (
     <div>
-      <h1>Contact Me</h1>
+      <h1 class="HeaderOne">Contact Me</h1>
       <div className="container">
       <Image id="reactImage" src={VintageTypewriter} fluid='true' />
       <div id="standard_text">

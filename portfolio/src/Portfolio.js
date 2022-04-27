@@ -10,7 +10,7 @@ import TheCryptogropher from './images/TheCryptogropher1280.jpg';
 function Portfolio(props) {
   return (
     <div>
-      <h1>Portfolio</h1>
+      <h1 class="HeaderOne">Portfolio</h1>
       <Carousel autoPlay='true' infiniteLoop='true' interval='3000' >
       <div>
           <a href="https://wcet.waketech.edu/dpablo/WEB225_Final/Final/index.php" target="_blank">

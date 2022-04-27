@@ -4,12 +4,16 @@
   background-size: cover;
 }
 
-h1, h2 {
+
+.HeaderOne {
   text-align: center;
   font-family: Cinzel Decorative, cursive;
-  padding-top: 4%;
-  padding-bottom: 4%;
-  text-shadow: rgb(255, 255, 255) 3px 2px 1px;
+  color: white;
+  font-weight: bold;
+  font-size: 200%;
+  background-color: rgb(0, 0, 0);
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 
 
@@ -40,11 +44,13 @@ h1, h2 {
 #standard_text {
   padding-left: 20px;
   font-family: Cinzel Decorative, cursive;
-  font-size: 280%;
+  font-size: 220%;
+  font-weight: bold;
   word-wrap: normal;
   height: auto;
   position: relative;
   color: black;
+  background-color: rgb(255, 255, 255, 0.5);
   text-shadow: rgb(255, 255, 255) 3px 2px 1px;
 }
 
@@ -62,9 +68,9 @@ h1, h2 {
 }
 
 #reactImage {
-  width: 50%;
+  width: 20%;
   height: auto;
-  float: left;
+  float: left; 
 }
 
 #artwork {
