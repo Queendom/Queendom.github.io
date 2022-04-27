@@ -107,7 +107,7 @@
 
 @media screen and (max-width: 720px) {
     .ia-container { 
-		width: 540px; 
+		width: 340px; 
 	}
 	
 	.ia-container figure { 
@@ -130,7 +130,7 @@
 
 @media screen and (max-width: 520px) {
     .ia-container { 
-		width: 320px; 
+		width: 220px; 
 	}
 	
 	.ia-container figure { 
