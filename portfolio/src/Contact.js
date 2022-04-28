@@ -8,20 +8,22 @@ function Contact(props) {
     <div>
       <h1 class="HeaderOne">Contact Me</h1>
       <div className="container">
-      <Image id="reactImage" src={VintageTypewriter} fluid='true' />
-      <div id="standard_text">
-        <p>For business inquires, please contact me at:</p>
+        <div className="imageBox">
+          <Image id="reactImage" src={VintageTypewriter} fluid='true' />
+        </div>
+        <div id="standard_text">
+          <p>For business inquires, please contact me at:</p>
 
-        <p>dinapablo19@gmail.com</p>
+          <p>dinapablo19@gmail.com</p>
 
-        <p>(919) 579-8069</p>
+          <p>(919) 579-8069</p>
 
-        <h2>Socials</h2>
-        <SocialIcon url="https://twitter.com/" />
-        <SocialIcon url="https://facebook.com/" />
-        <SocialIcon url="https://linkedin.com/" />
-        <SocialIcon url="https://instagram.com/" />
-      </div>
+          <h2>Socials</h2>
+          <SocialIcon url="https://twitter.com/" />
+          <SocialIcon url="https://facebook.com/" />
+          <SocialIcon url="https://linkedin.com/" />
+          <SocialIcon url="https://instagram.com/" />
+        </div>
       </div>
     </div>
   )

@@ -6,9 +6,11 @@ import Image from 'react-bootstrap/Image'
 function About() {
   return (
     <div>
-      <h1 class="HeaderOne">About</h1>
+      <h1 class="HeaderOne">Home</h1>
       <div className="container">
-        <Image id="reactImage" src={ClassSelfie} fluid='true'/>
+        <div className="imageBox">
+          <Image id="reactImage" src={ClassSelfie} fluid='true'/>
+        </div>
         <div id="standard_text">
           <p class="AboutIntroLine">Hello! I'm Dinah - 
             a designer who enjoys creating websites that are both beautiful and functional to suit every need.</p>
