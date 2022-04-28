@@ -7,18 +7,23 @@ import JJBAWikiSpot from './images/JJBAWikiSpot1280.jpg';
 import Ixora from './images/IxoraReduced.PNG';
 import TheCryptogropher from './images/TheCryptogropher1280.jpg';
  
+const legendStyle = {
+  'font-size': '15px',
+  opacity:1
+};
+
 function Portfolio(props) {
   return (
     <div>
       <h1 class="HeaderOne">Portfolio</h1>
-      <Carousel autoPlay='true' infiniteLoop='true' interval='3000' >
+      <Carousel autoPlay='true' infiniteLoop='true' interval='5000' >
       <div>
           <a href="https://wcet.waketech.edu/dpablo/WEB225_Final/Final/index.php" target="_blank">
             <div>
               <img src={Ixora} id="carousel"/>
             </div>
           </a>
-            <p className="legend">As a class final, I created a fictional music database in Joomla 4.</p>
+            <p className="legend" style={legendStyle}>As a class final, I created a fictional music database in Joomla 4.</p>
         </div>
 
         <div>
@@ -27,7 +32,7 @@ function Portfolio(props) {
               <img src={JJBAWikiSpot} id="carousel"/>
             </div>
           </a>
-            <p className="legend">This was a Jojo's Bizarre Adventure fanmade website that I created for a class final. 
+            <p className="legend" style={legendStyle}>This was a Jojo's Bizarre Adventure fanmade website that I created for a class final. 
         This was designed to be for mobile devices.</p>
         </div>
 
@@ -37,7 +42,7 @@ function Portfolio(props) {
               <img src={TheCryptogropher} id="carousel"/>
             </div>
           </a>
-            <p className="legend">A cryptocurrency website that was created for a class mid-term.</p>
+            <p className="legend" style={legendStyle}>A cryptocurrency website that was created for a class mid-term.</p>
         </div>
 
       </Carousel>

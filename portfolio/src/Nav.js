@@ -4,7 +4,7 @@ import { Navbar, Nav, Container } from 'react-bootstrap';
 function Navigation() {
     return (
         <>
-            <Navbar collapseOnSelect sticky='top' expand='sm' bg='white' variant='light'>
+            <Navbar collapseOnSelect sticky='top' expand='lg' bg='white' variant='light'>
                 <Container>
                 <Navbar.Brand id="navhead" href="/">Dina Pablo</Navbar.Brand>
                     <Navbar.Toggle aria-controls='responsive=nabar-nav' />
