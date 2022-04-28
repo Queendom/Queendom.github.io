@@ -28,7 +28,7 @@ import"./fonts/Nosifer-Regular.ttf";
 function App() {
   return (
     <HashRouter basename={process.env.PUBLIC_URL}>
-      <div className="App" style={{ backgroundImage: `url(${background})` }}>
+      <div className="App" >
 
       <div className="navigation">
           <div className="navigation-sub">
