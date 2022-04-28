@@ -11,11 +11,11 @@ function DigitalArtwork(props) {
     
     <div>
       <h1 class="HeaderOne">Digital Artwork</h1>
-      <h2>Venti</h2>
+      <h2 class="HeaderTwo">Venti</h2>
       <Image id="artwork" src={FlowerVenti} fluid='true'/>
-      <h2>Giorno</h2>
+      <h2 class="HeaderTwo">Giorno</h2>
       <Image id="artwork" src={GothGiorno} fluid='true'/>
-      <h2>Jolyne</h2>
+      <h2 class="HeaderTwo">Jolyne</h2>
       <Image id="artwork" src={Jolyne} fluid='true'/>
     </div>
     /*
