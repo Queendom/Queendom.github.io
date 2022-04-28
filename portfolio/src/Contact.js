@@ -1,5 +1,6 @@
 import React from "react"
 import VintageTypewriter from './images/VintageTypewriter.jpeg';
+import CircleNotepad from './images/ContactResized.png'
 import { SocialIcon } from 'react-social-icons';
 import Image from 'react-bootstrap/Image'
  
@@ -9,7 +10,7 @@ function Contact(props) {
       <h1 class="HeaderOne">Contact Me</h1>
       <div className="container">
         <div className="imageBox">
-          <Image id="reactImage" src={VintageTypewriter} fluid='true' />
+          <Image id="reactImage" src={CircleNotepad} fluid='true' />
         </div>
         <div id="standard_text">
           <p>For business inquires, please contact me at:</p>
