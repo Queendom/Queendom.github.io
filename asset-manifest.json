@@ -1,29 +1,31 @@
 {
   "files": {
-    "main.css": "/static/css/main.9d2357ff.css",
-    "main.js": "/static/js/main.c244e5d5.js",
+    "main.css": "/static/css/main.f7f92c5b.css",
+    "main.js": "/static/js/main.38db5e8a.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
-    "static/media/FlowerVenti.jpg": "/static/media/FlowerVenti.641eb60a29bc77a2e665.jpg",
-    "static/media/GothGiorno.png": "/static/media/GothGiorno.f7b5c79bd207e43b87da.png",
-    "static/media/Jolyne.jpg": "/static/media/Jolyne.da4395ef02f19c0e7881.jpg",
-    "static/media/WestPalmBeach1280.jpg": "/static/media/WestPalmBeach1280.7cf79eff99acb45a9f38.jpg",
+    "static/media/AbstractPaint.jpg": "/static/media/AbstractPaint.6ba702bafd0c2d639727.jpg",
     "static/media/JJBAWikiSpot1280.jpg": "/static/media/JJBAWikiSpot1280.a4bb7362bcac895cdfee.jpg",
-    "static/media/VintageTypewriter.jpeg": "/static/media/VintageTypewriter.209334e50b7a9439207b.jpeg",
+    "static/media/Dina_Pablo_Resume.pdf": "/static/media/Dina_Pablo_Resume.21521eb44114b88bebe6.pdf",
     "static/media/TheCryptogropher1280.jpg": "/static/media/TheCryptogropher1280.2ea8bfba307b67ceefa4.jpg",
     "static/media/Milonga-Regular.ttf": "/static/media/Milonga-Regular.560281c48d54a2252656.ttf",
+    "static/media/ClassSelfieResized.png": "/static/media/ClassSelfieResized.3351ecc38465ee19c16a.png",
     "static/media/Resume.PNG": "/static/media/Resume.49b466516f44b390ec2f.PNG",
-    "static/media/ClassSelfie.jpg": "/static/media/ClassSelfie.3fb2d329956c213ca07d.jpg",
+    "static/media/GothGiornoResized.jpg": "/static/media/GothGiornoResized.9157b57144e9f612a421.jpg",
+    "static/media/FlowerVentiResized.jpg": "/static/media/FlowerVentiResized.71e75fb4f9cf247206ee.jpg",
+    "static/media/JolyneResized.jpg": "/static/media/JolyneResized.3519281617ac87beaa4a.jpg",
+    "static/media/ContactResized.png": "/static/media/ContactResized.bf99844419ed58b65e96.png",
+    "static/media/IxoraCompressed.jpg": "/static/media/IxoraCompressed.97e8accce8e5b4c81bf8.jpg",
     "static/media/CinzelDecorative-Black.ttf": "/static/media/CinzelDecorative-Black.a98758b9452a977dba37.ttf",
     "static/media/CinzelDecorative-Bold.ttf": "/static/media/CinzelDecorative-Bold.4701e9921703cb64dfce.ttf",
     "static/media/CinzelDecorative-Regular.ttf": "/static/media/CinzelDecorative-Regular.c243877d82654b511c69.ttf",
     "static/media/Nosifer-Regular.ttf": "/static/media/Nosifer-Regular.09ac1852b7b1ef7a0cc2.ttf",
     "index.html": "/index.html",
-    "main.9d2357ff.css.map": "/static/css/main.9d2357ff.css.map",
-    "main.c244e5d5.js.map": "/static/js/main.c244e5d5.js.map",
+    "main.f7f92c5b.css.map": "/static/css/main.f7f92c5b.css.map",
+    "main.38db5e8a.js.map": "/static/js/main.38db5e8a.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9d2357ff.css",
-    "static/js/main.c244e5d5.js"
+    "static/css/main.f7f92c5b.css",
+    "static/js/main.38db5e8a.js"
   ]
 }
