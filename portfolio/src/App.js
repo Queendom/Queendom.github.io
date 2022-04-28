@@ -40,8 +40,8 @@ function App() {
         
 
         <Routes>
-        <Route exact path="/" element={<About/>} />
-        <Route path="/portfolio" element={<Portfolio/>} />
+        <Route exact path="/" element={<Portfolio/>} />
+        <Route path="/about" element={<About/>} />
         <Route path="/resume" element={<Resume/>} />
         <Route path="/contact" element={<Contact/>} />
         <Route path="/digitalartwork" element={<DigitalArtwork/>} />

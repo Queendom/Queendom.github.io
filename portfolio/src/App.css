@@ -4,10 +4,13 @@
   background-size: cover;
 }
 
-h2 {
+.HeaderTwo {
   margin-left: auto;
   margin-right: auto;
+  color: black;
   text-align: center;
+  font-weight: bold;
+  font-family: Cinzel Decorative, cursive;
 }
 
 
@@ -70,6 +73,12 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.SocialsContainer {
+  justify-content: space-evenly;
+  display: flex;
+  padding: 5%;
 }
 
 #reactImage {
@@ -136,7 +145,7 @@ h2 {
 }
 
 .BlogLink {
-  color:rgb(167, 16, 255);
+  color:rgb(45, 193, 252);
   text-decoration: none;
 }
 
