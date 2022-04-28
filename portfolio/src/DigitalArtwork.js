@@ -1,9 +1,9 @@
 import React from "react"
 import './accordion.css'
 import Thumbnail from './Thumbnail.js'; // Import the Thumbnail component
-import FlowerVenti from './images/FlowerVenti.jpg';
-import GothGiorno from './images/GothGiorno.png';
-import Jolyne from './images/Jolyne.jpg';
+import FlowerVenti from './images/FlowerVentiResized.jpg';
+import GothGiorno from './images/GothGiornoResized.jpg';
+import Jolyne from './images/JolyneResized.jpg';
 import Image from 'react-bootstrap/Image';
 
 function DigitalArtwork(props) {
@@ -12,11 +12,11 @@ function DigitalArtwork(props) {
     <div>
       <h1 class="HeaderOne">Digital Artwork</h1>
       <h2 class="HeaderTwo">Venti</h2>
-      <Image id="artwork" src={FlowerVenti} fluid='true'/>
+      <Image id="artwork" src={FlowerVenti} fluid='true' alt="venti genshin impact fanart"/>
       <h2 class="HeaderTwo">Giorno</h2>
-      <Image id="artwork" src={GothGiorno} fluid='true'/>
+      <Image id="artwork" src={GothGiorno} fluid='true' alt="giorno jjba bizarre adventure fanart"/>
       <h2 class="HeaderTwo">Jolyne</h2>
-      <Image id="artwork" src={Jolyne} fluid='true'/>
+      <Image id="artwork" src={Jolyne} fluid='true' alt="jolyne jjba bizarre adventure fanart"/>
     </div>
     /*
     <div class="ia-container">

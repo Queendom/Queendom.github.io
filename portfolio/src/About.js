@@ -9,7 +9,7 @@ function About() {
       <h1 class="HeaderOne">About Me</h1>
       <div className="container">
         <div className="imageBox">
-          <Image id="reactImage" src={ClassSelfie} fluid='true'/>
+          <Image id="reactImage" src={ClassSelfie} fluid='true' alt="goth purple selfie picture"/>
         </div>
         <div id="standard_text">
           <p class="AboutIntroLine">Hello! I'm Dinah - 

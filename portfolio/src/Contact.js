@@ -9,7 +9,7 @@ function Contact(props) {
       <h1 class="HeaderOne">Contact Me</h1>
       <div className="container">
         <div className="imageBox">
-          <Image id="reactImage" src={VintageTypewriter} fluid='true' />
+          <Image id="reactImage" src={VintageTypewriter} fluid='true' alt="notepad plant pen" />
         </div>
         <div id="standard_text">
           <p>For business inquires, please contact me at:</p>

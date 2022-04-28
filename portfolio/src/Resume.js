@@ -9,9 +9,9 @@ function Resume(props) {
   return (
     <div>
       <h1 class="HeaderOne">Resume</h1>
-      <Image id="resume" src={ResumeScreenshot} fluid='true'/>
-      <h2 class="HeaderTwo">
-      <a href={ResumePDF} download>Download Resume PDF</a>
+      <Image id="resume" src={ResumeScreenshot} fluid='true' alt="resume sheet"/>
+      <h2 id="resume_text">
+      <a class="ResumeDownload" href={ResumePDF} download>Download Resume PDF</a>
       </h2>
     </div>
   )
