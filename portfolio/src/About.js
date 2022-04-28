@@ -1,5 +1,5 @@
 import React from "react"
-import ClassSelfie from './images/ClassSelfieResized.png';
+import ClassSelfie from './images/ClassSelfieCircle.png';
 import Image from 'react-bootstrap/Image'
 
  

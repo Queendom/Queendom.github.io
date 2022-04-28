@@ -1,5 +1,5 @@
 import React from "react"
-import VintageTypewriter from './images/ContactResized.png';
+import VintageTypewriter from './images/VintageTypewriter.jpeg';
 import { SocialIcon } from 'react-social-icons';
 import Image from 'react-bootstrap/Image'
  

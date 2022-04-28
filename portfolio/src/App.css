@@ -42,10 +42,9 @@
 }
 
 #standard_text {
-  margin-left: 5%;
-  padding: 2%;
+  padding-left: 20px;
   font-family: Cinzel Decorative, cursive;
-  font-size: 190%;
+  font-size: 220%;
   font-weight: bold;
   word-wrap: normal;
   height: auto;
