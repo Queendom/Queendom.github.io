@@ -8,9 +8,9 @@ import Image from 'react-bootstrap/Image';
 
 function DigitalArtwork(props) {
   return (
-    /*
+    
     <div>
-      <h1>Digital Artwork</h1>
+      <h1 class="HeaderOne">Digital Artwork</h1>
       <h2>Venti</h2>
       <Image id="artwork" src={FlowerVenti} fluid='true'/>
       <h2>Giorno</h2>
@@ -18,7 +18,7 @@ function DigitalArtwork(props) {
       <h2>Jolyne</h2>
       <Image id="artwork" src={Jolyne} fluid='true'/>
     </div>
-    */
+    /*
     <div class="ia-container">
 				
     <figure>
@@ -42,6 +42,7 @@ function DigitalArtwork(props) {
 				
 		</figure>
     </div>
+    */
   )
 }
  
